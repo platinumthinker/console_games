@@ -1,0 +1,15 @@
+{application, games,
+ [
+  {description, "Collection console games"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { games_app, []}},
+  {env, []}
+ ]
+}.
+
+%% vim: ft=erlang
